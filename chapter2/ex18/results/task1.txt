@@ -1,0 +1,24 @@
+
+Status: FAILED!
+Check: 1
+Test: Test case 1
+Reason: Unable to find '['1380', '1186.8', '118.68', '11.868', '264.063', '132.031']' in the program's output.
+Enter your payrate and press Enter: Enter number of hours worked and press Enter Income before taxes is $480 and after is$ 480The money spent on clothes and accessories is $48
+The money spent on school supplies is $4.8
+The money put into savings bonds is $106.8
+The money your parents invested is $213.6
+.
+Error : AssertionError - Unable to find a number close enough to 1380 (+/-0.00) in the program's output.
+Timestamp: 2026-03-24 00:02:12.009179
+
+Status: FAILED!
+Check: 2
+Test: Test case 2
+Reason: Unable to find '['2201', '1892.86', '189.286', '18.9286', '421.161', '210.581']' in the program's output.
+Enter your payrate and press Enter: Enter number of hours worked and press Enter Income before taxes is $310 and after is$ 310The money spent on clothes and accessories is $31
+The money spent on school supplies is $3.1
+The money put into savings bonds is $68.975
+The money your parents invested is $137.95
+.
+Error : AssertionError - Unable to find a number close enough to 2201 (+/-0.00) in the program's output.
+Timestamp: 2026-03-24 00:02:12.012898
