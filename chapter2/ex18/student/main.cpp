@@ -9,6 +9,7 @@ int main() {
     float clothesSupR;
     float schoolSupR;
     float savingsR;
+    double payTotal;
     double taxedTotal;
     double clothesSup;
     double schoolSup;
@@ -25,14 +26,15 @@ int main() {
     cout << "Enter number of hours worked and press Enter ";
     cin >> hoursWorked;
 
-    taxedTotal = payRate * hoursWorked;
+    payTotal = payRate * hoursWorked;
+    taxedTotal = payTotal - (payTotal * taxRate);
     clothesSup = clothesSupR * taxedTotal;
     schoolSup = schoolSupR * taxedTotal;
     savings = (taxedTotal - clothesSup - schoolSup) * savingsR;
     psavings = savings / 0.5;
 
-    cout << "Income before taxes is $" << payRate * hoursWorked; 
-    cout << " and after is$ " << taxedTotal;
+    cout << "Income before taxes is $" << payTotal; 
+    cout << " and after is $" << taxedTotal << endl;
     cout << "The money spent on clothes and accessories is $" << clothesSup << endl;
     cout << "The money spent on school supplies is $" << schoolSup << endl;
     cout << "The money put into savings bonds is $" << savings << endl;
