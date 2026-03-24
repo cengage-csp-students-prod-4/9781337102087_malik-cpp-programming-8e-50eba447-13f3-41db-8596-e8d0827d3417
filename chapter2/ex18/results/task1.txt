@@ -9,7 +9,7 @@ The money put into savings bonds is $106.8
 The money your parents invested is $213.6
 .
 Error : AssertionError - Unable to find a number close enough to 1380 (+/-0.00) in the program's output.
-Timestamp: 2026-03-24 00:02:12.009179
+Timestamp: 2026-03-24 00:02:39.485711
 
 Status: FAILED!
 Check: 2
@@ -21,4 +21,4 @@ The money put into savings bonds is $68.975
 The money your parents invested is $137.95
 .
 Error : AssertionError - Unable to find a number close enough to 2201 (+/-0.00) in the program's output.
-Timestamp: 2026-03-24 00:02:12.012898
+Timestamp: 2026-03-24 00:02:39.491329
