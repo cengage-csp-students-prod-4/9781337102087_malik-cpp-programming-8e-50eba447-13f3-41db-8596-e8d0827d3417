@@ -33,12 +33,12 @@ int main() {
     savings = (taxedTotal - clothesSup - schoolSup) * savingsR;
     psavings = savings / 0.5;
 
-    cout << "Income before taxes is $" << payTotal; 
-    cout << " and after is $" << taxedTotal << endl;
-    cout << "The money spent on clothes and accessories is $" << clothesSup << endl;
-    cout << "The money spent on school supplies is $" << schoolSup << endl;
-    cout << "The money put into savings bonds is $" << savings << endl;
-    cout << "The money your parents invested is $" << psavings << endl;
+    cout << payTotal; 
+    cout << taxedTotal << endl;
+    cout << clothesSup << endl;
+    cout << schoolSup << endl;
+    cout << savings << endl;
+    cout << psavings << endl;
 
     return 0;
 }
