@@ -40,7 +40,7 @@ int main() {
     clothesSup = clothesSupR * taxedTotal;
     schoolSup = schoolSupR * taxedTotal;
     savings = (taxedTotal - clothesSup - schoolSup) * savingsR;
-    psavings = savings / 0.5;
+    psavings = savings / 2;
 
     cout << payTotal << endl; 
     cout << taxedTotal << endl;

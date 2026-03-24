@@ -1,28 +1,12 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Test case 1
-Reason: Unable to find '['1380', '1186.8', '118.68', '11.868', '264.063', '132.031']' in the program's output.
-Enter your payrate and press Enter: Enter number of hours worked week 1 and press Enter Enter number of hours worked week 2 and press Enter Enter number of hours worked week 3 and press Enter Enter number of hours worked week 4 and press Enter Enter number of hours worked week 5 and press Enter 1380
-1186.8
-118.68
-11.868
-264.063
-528.126
-.
-Error : AssertionError - Unable to find a number close enough to 132.031 (+/-0.00) in the program's output.
-Timestamp: 2026-03-24 03:27:04.360930
+Reason: None
+Timestamp: 2026-03-24 03:29:49.238025
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Test case 2
-Reason: Unable to find '['2201', '1892.86', '189.286', '18.9286', '421.161', '210.581']' in the program's output.
-Enter your payrate and press Enter: Enter number of hours worked week 1 and press Enter Enter number of hours worked week 2 and press Enter Enter number of hours worked week 3 and press Enter Enter number of hours worked week 4 and press Enter Enter number of hours worked week 5 and press Enter 2201
-1892.86
-189.286
-18.9286
-421.161
-842.323
-.
-Error : AssertionError - Unable to find a number close enough to 210.581 (+/-0.00) in the program's output.
-Timestamp: 2026-03-24 03:27:04.365383
+Reason: None
+Timestamp: 2026-03-24 03:29:49.242629
