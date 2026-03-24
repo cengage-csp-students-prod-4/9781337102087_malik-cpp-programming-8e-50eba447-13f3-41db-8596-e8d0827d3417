@@ -3,24 +3,26 @@ Status: FAILED!
 Check: 1
 Test: Test case 1
 Reason: Unable to find '['1380', '1186.8', '118.68', '11.868', '264.063', '132.031']' in the program's output.
-Enter your payrate and press Enter: Enter number of hours worked and press Enter 480412.8
+Enter your payrate and press Enter: Enter number of hours worked and press Enter 480
+412.8
 41.28
 4.128
 91.848
 183.696
 .
 Error : AssertionError - Unable to find a number close enough to 1380 (+/-0.00) in the program's output.
-Timestamp: 2026-03-24 00:18:34.616984
+Timestamp: 2026-03-24 00:20:46.449092
 
 Status: FAILED!
 Check: 2
 Test: Test case 2
 Reason: Unable to find '['2201', '1892.86', '189.286', '18.9286', '421.161', '210.581']' in the program's output.
-Enter your payrate and press Enter: Enter number of hours worked and press Enter 310266.6
+Enter your payrate and press Enter: Enter number of hours worked and press Enter 310
+266.6
 26.66
 2.666
 59.3185
 118.637
 .
 Error : AssertionError - Unable to find a number close enough to 2201 (+/-0.00) in the program's output.
-Timestamp: 2026-03-24 00:18:34.621187
+Timestamp: 2026-03-24 00:20:46.452736

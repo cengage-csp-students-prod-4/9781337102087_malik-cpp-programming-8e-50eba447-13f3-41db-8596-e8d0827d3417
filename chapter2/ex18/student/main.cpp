@@ -33,7 +33,7 @@ int main() {
     savings = (taxedTotal - clothesSup - schoolSup) * savingsR;
     psavings = savings / 0.5;
 
-    cout << payTotal; 
+    cout << payTotal << endl; 
     cout << taxedTotal << endl;
     cout << clothesSup << endl;
     cout << schoolSup << endl;
