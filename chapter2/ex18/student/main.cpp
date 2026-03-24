@@ -5,21 +5,16 @@ using namespace std;
 int main() {
     float payRate;
     float hoursWorked;
-    float taxRate;
-    float clothesSupR;
-    float schoolSupR;
-    float savingsR;
+    const float taxRate = 0.14;
+    const float clothesSupR = 0.10;
+    const float schoolSupR = 0.01;
+    const float savingsR = 0.25;
     double payTotal;
     double taxedTotal;
     double clothesSup;
     double schoolSup;
     double savings;
     double psavings;
-
-    taxRate = 0.14;
-    clothesSupR = 0.10;
-    schoolSupR = 0.01;
-    savingsR = 0.25;
 
     cout << "Enter your payrate and press Enter: ";
     cin >> payRate;
