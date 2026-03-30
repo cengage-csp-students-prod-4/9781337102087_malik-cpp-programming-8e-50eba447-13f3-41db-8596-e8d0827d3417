@@ -29,12 +29,12 @@ int main()
     cin >> constantTerm;
     cout << endl;
     discriminant = pow(coefficientOfX, 2) + (-4 * coefficientOfXSquare * constantTerm);
+    ///cout << discriminant;
     sqrtOfDiscriminant = sqrt(discriminant);
-    root1 = ((-1 * coefficientOfX) + sqrtOfDiscriminant) / 2 * coefficientOfXSquare;
-    root2 = ((-1 * coefficientOfX) - sqrtOfDiscriminant) / 2 * coefficientOfXSquare;
 
     if (discriminant == 0)
     {
+        root1 = (-1 * coefficientOfX) / (2 * coefficientOfXSquare);
         cout << "The program has a single (repeated) root " << root1;
     }
     else if (discriminant > 0)
