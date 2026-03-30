@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     double pi = 0;
-    double long i;
+    long i;
     long n;
     
     cin >> n;
