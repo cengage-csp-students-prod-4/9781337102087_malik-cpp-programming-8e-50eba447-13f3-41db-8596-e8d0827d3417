@@ -3,18 +3,13 @@ Status: PASSED!
 Check: 1
 Test: Complex roots case 1
 Reason: None
-Timestamp: 2026-03-30 20:40:40.184719
+Timestamp: 2026-03-30 21:06:46.390698
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Distinct real roots case 1
-Reason: Unable to find '['real', '-0.59', '-3.41']' in the program's output.
-Enter the coefficient of x square: 
-Enter the coefficient of x: 
-Enter the constant term: 
-The program has two real roots2.83-2.83.
-Error : AssertionError - Unable to find -0.59 in the program's output.
-Timestamp: 2026-03-30 20:40:40.190971
+Reason: None
+Timestamp: 2026-03-30 21:06:46.395718
 
 Status: FAILED!
 Check: 3
@@ -23,9 +18,9 @@ Reason: Unable to find '['repeated', '-0.50']' in the program's output.
 Enter the coefficient of x square: 
 Enter the coefficient of x: 
 Enter the constant term: 
-The program has a single (repeated) root0.00.
+The program has a single (repeated) root -8.00.
 Error : AssertionError - Unable to find -0.50 in the program's output.
-Timestamp: 2026-03-30 20:40:40.198868
+Timestamp: 2026-03-30 21:06:46.401666
 
 Status: FAILED!
 Check: 4
@@ -34,6 +29,6 @@ Reason: Unable to find '['real', '-0.29', ' -1.71']' in the program's output.
 Enter the coefficient of x square: 
 Enter the coefficient of x: 
 Enter the constant term: 
-The program has two real roots2.83-2.83.
+The program has two real roots -1.17-6.83.
 Error : AssertionError - Unable to find -0.29 in the program's output.
-Timestamp: 2026-03-30 20:40:40.211515
+Timestamp: 2026-03-30 21:06:46.407381
