@@ -28,7 +28,7 @@ int main()
     cout << "Enter the constant term: ";
     cin >> constantTerm;
     cout << endl;
-    discriminant = pow(coefficientOfX, 2) - (4 * coefficientOfXSquare * constantTerm);
+    discriminant = pow(coefficientOfX, 2) + (-4 * coefficientOfXSquare * constantTerm);
     sqrtOfDiscriminant = sqrt(discriminant);
     root1 = ((-1 * coefficientOfX) + sqrtOfDiscriminant) / 2 * coefficientOfXSquare;
     root2 = ((-1 * coefficientOfX) - sqrtOfDiscriminant) / 2 * coefficientOfXSquare;
