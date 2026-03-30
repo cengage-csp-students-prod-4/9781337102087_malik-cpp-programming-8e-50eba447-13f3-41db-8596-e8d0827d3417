@@ -1,33 +1,21 @@
 
 Status: FAILED!
 Check: 1
-Test: Test case 1
-Reason: Unable to find '['pi = 3.25237']' in the program's output.
-Enter the value of n: 
-
-pi = -262144
-.
-Error : AssertionError - Unable to find pi = 3.25237 in the program's output.
-Timestamp: 2026-03-30 23:45:27.758879
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the c++ files.
+Timestamp: 2026-03-30 23:53:03.202778
 
 Status: FAILED!
 Check: 2
-Test: Test case 2
-Reason: Unable to find '['pi = 3.13959']' in the program's output.
-Enter the value of n: 
-
-pi = -1.07151e+301
-.
-Error : AssertionError - Unable to find pi = 3.13959 in the program's output.
-Timestamp: 2026-03-30 23:45:27.762901
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the c++ files.
+Timestamp: 2026-03-30 23:53:03.202931
 
 Status: FAILED!
 Check: 3
-Test: Test case 3
-Reason: Unable to find '['pi = 3.14059']' in the program's output.
-Enter the value of n: 
-
-pi = -inf
-.
-Error : AssertionError - Unable to find pi = 3.14059 in the program's output.
-Timestamp: 2026-03-30 23:45:27.767939
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the c++ files.
+Timestamp: 2026-03-30 23:53:03.203062
