@@ -29,14 +29,17 @@ int main()
     cin >> constantTerm;
     cout << endl;
     discriminant = pow(coefficientOfX, 2) - (4 * coefficientOfXSquare * constantTerm);
+    sqrtOfDiscriminant = sqrt(discriminant);
+    root1 = sqrtOfDiscriminant;
+    root2 = sqrtOfDiscriminant * -1;
 
     if (discriminant == 0)
     {
-        cout << "The program has a single (repeated) root";
+        cout << "The program has a single (repeated) root" << root1;
     }
     else if (discriminant > 0)
     {
-        cout << "The program has two real roots";
+        cout << "The program has two real roots" << root1 << root2;
     }
     else
         cout << "The equation has complex roots" << endl;
