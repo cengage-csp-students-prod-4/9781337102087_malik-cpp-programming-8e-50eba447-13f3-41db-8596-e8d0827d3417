@@ -20,7 +20,6 @@ int main()
     
     for (i = 0; i < n; i++)
     {
-        pi = 0;
         pi = 4 * pi;
     }
     
