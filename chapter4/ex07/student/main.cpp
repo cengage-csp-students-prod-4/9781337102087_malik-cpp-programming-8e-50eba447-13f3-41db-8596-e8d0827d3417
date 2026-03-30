@@ -39,6 +39,8 @@ int main()
     }
     else if (discriminant > 0)
     {
+        root1 = ((-1 * coefficientOfX) + sqrtOfDiscriminant) / (2 * coefficientOfXSquare);
+        root2 = ((-1 * coefficientOfX) - sqrtOfDiscriminant) / (2 * coefficientOfXSquare);
         cout << "The program has two real roots " << root1 << " " << root2;
     }
     else
