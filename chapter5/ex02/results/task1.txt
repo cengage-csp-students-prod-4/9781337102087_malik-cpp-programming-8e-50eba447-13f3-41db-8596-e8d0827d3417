@@ -5,10 +5,10 @@ Test: Test case 1
 Reason: Unable to find '['pi = 3.25237']' in the program's output.
 Enter the value of n: 
 
-pi = 0
+pi = -262144
 .
 Error : AssertionError - Unable to find pi = 3.25237 in the program's output.
-Timestamp: 2026-03-30 23:30:26.409416
+Timestamp: 2026-03-30 23:45:27.758879
 
 Status: FAILED!
 Check: 2
@@ -16,10 +16,10 @@ Test: Test case 2
 Reason: Unable to find '['pi = 3.13959']' in the program's output.
 Enter the value of n: 
 
-pi = 0
+pi = -1.07151e+301
 .
 Error : AssertionError - Unable to find pi = 3.13959 in the program's output.
-Timestamp: 2026-03-30 23:30:26.413765
+Timestamp: 2026-03-30 23:45:27.762901
 
 Status: FAILED!
 Check: 3
@@ -27,7 +27,7 @@ Test: Test case 3
 Reason: Unable to find '['pi = 3.14059']' in the program's output.
 Enter the value of n: 
 
-pi = 0
+pi = -inf
 .
 Error : AssertionError - Unable to find pi = 3.14059 in the program's output.
-Timestamp: 2026-03-30 23:30:26.419365
+Timestamp: 2026-03-30 23:45:27.767939
