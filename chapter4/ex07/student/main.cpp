@@ -39,11 +39,11 @@ int main()
     }
     else if (discriminant > 0)
     {
-        cout << "The program has two real roots " << root1 << root2;
+        cout << "The program has two real roots " << root1 << " " << root2;
     }
     else
 
-        cout << "The equation has complex roots " << root1 << " " << root2 << endl;
+        cout << "The equation has complex roots " << root1 << " " << root2;
 
     return 0;
 }
