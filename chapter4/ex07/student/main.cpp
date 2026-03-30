@@ -43,7 +43,7 @@ int main()
     }
     else
 
-        cout << "The equation has complex roots " << root1 << " " << root2;
+        cout << "The equation has complex roots";
 
     return 0;
 }

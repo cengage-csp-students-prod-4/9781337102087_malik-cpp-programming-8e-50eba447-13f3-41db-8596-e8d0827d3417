@@ -3,13 +3,13 @@ Status: PASSED!
 Check: 1
 Test: Complex roots case 1
 Reason: None
-Timestamp: 2026-03-30 21:54:35.974521
+Timestamp: 2026-03-30 22:08:02.747807
 
 Status: PASSED!
 Check: 2
 Test: Distinct real roots case 1
 Reason: None
-Timestamp: 2026-03-30 21:54:35.977766
+Timestamp: 2026-03-30 22:08:02.754553
 
 Status: FAILED!
 Check: 3
@@ -20,7 +20,7 @@ Enter the coefficient of x:
 Enter the constant term: 
 The program has a single (repeated) root -8.00.
 Error : AssertionError - Unable to find -0.50 in the program's output.
-Timestamp: 2026-03-30 21:54:35.980940
+Timestamp: 2026-03-30 22:08:02.760198
 
 Status: FAILED!
 Check: 4
@@ -31,4 +31,4 @@ Enter the coefficient of x:
 Enter the constant term: 
 The program has two real roots -1.17 -6.83.
 Error : AssertionError - Unable to find -0.29 in the program's output.
-Timestamp: 2026-03-30 21:54:35.984219
+Timestamp: 2026-03-30 22:08:02.764599
