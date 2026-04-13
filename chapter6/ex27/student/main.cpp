@@ -168,3 +168,4 @@ void print(int hr, int min, int sec, string str, bool isTwelveHr)
         cout << " " << str << endl;
     else
         cout << endl;
+}
