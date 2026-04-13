@@ -40,11 +40,13 @@ int main()
             twelveHourToTwentyFourHour(hrTwelve, minTwelve, secTwelve, AMorPM,
                                 hrTwentyFour, minTwentyFour, secTwentyFour);
             print(hrTwentyFour, minTwentyFour, secTwentyFour, "", false);
+            break;
         case 2:
             getTimeTwentyFourHour(hrTwentyFour, minTwentyFour, secTwentyFour);
             TwentyFourHourToTwelveHour(hrTwentyFour, minTwentyFour , secTwentyFour,
                                 hrTwelve, minTwelve, secTwelve, AMorPM);
             print(hrTwelve, minTwelve, secTwelve, AMorPM, true);
+            break;
         case 99:
             break;
 
