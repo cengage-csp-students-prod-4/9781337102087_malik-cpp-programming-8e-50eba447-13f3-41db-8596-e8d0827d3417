@@ -112,6 +112,8 @@ void twelveHourToTwentyFourHour(int hTwelve, int mTwelve, int sTwelve, string AM
             hTwentyFour = 0;
         else
             hTwentyFour = hTwelve;
+        mTwentyFour = mTwelve;
+        sTwentyFour = sTwelve;
     }
     else
     {

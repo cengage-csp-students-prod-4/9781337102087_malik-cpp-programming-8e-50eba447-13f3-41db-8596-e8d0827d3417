@@ -1,29 +1,12 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Successful Output
-Reason: Unable to find '['The time is: 08:30:20']' in the program's output.
-Enter--
-1: To convert time from 12-hour notation to 24-hour notation.
-2: To convert time from 24-hour notation to 12-hour notation.
-99: To quit the program.
-
-Enter hours: 
-Enter Minutes: 
-Enter Seconds: 
-Enter AM/PM: 
-The time is: 08:0-1:0-1328995864
-Enter--
-1: To convert time from 12-hour notation to 24-hour notation.
-2: To convert time from 24-hour notation to 12-hour notation.
-99: To quit the program.
-
-.
-Error : AssertionError - Unable to find The\s+time\s+is\W*\s+08\W30\W20 in the program's output.
-Timestamp: 2026-04-13 21:40:24.382254
+Reason: None
+Timestamp: 2026-04-13 21:42:54.022610
 
 Status: PASSED!
 Check: 2
 Test: Successful Output II
 Reason: None
-Timestamp: 2026-04-13 21:40:24.388093
+Timestamp: 2026-04-13 21:42:54.027937
