@@ -1,14 +1,20 @@
 
 Status: FAILED!
-Check: 1
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2026-04-13 21:33:55.964440
+Reason: Unable to run main.cpp
+Error: The program took longer than 5 seconds to execute.
+This may indicate an issue providing input to your program.
+Check your program follows the example in the instructions.
+Timestamp: 2026-04-13 21:34:56.555548
 
 Status: FAILED!
+Reason: Unable to run main.cpp
+Error: The program took longer than 5 seconds to execute.
+This may indicate an issue providing input to your program.
+Check your program follows the example in the instructions.
+Timestamp: 2026-04-13 21:34:56.555678
+
+Status: PASSED!
 Check: 2
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2026-04-13 21:33:55.964591
+Test: Successful Output II
+Reason: None
+Timestamp: 2026-04-13 21:34:56.603972

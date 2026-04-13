@@ -133,7 +133,7 @@ void TwentyFourHourToTwelveHour(int hTwentyFour, int mTwentyFour , int sTwentyFo
     else if (hTwentyFour < 12)
     {
         hTwelve = hTwentyFour;
-        AMorPM = "AM"
+        AMorPM = "AM";
     }
     else if (hTwentyFour == 12)
     {
