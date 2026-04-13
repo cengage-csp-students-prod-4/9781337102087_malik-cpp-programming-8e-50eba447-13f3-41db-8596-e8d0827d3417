@@ -12,7 +12,7 @@ Enter hours:
 Enter Minutes: 
 Enter Seconds: 
 Enter AM/PM: 
-The time is:   08:0-1:590607176
+The time is: 08:0-1:0-1328995864
 Enter--
 1: To convert time from 12-hour notation to 24-hour notation.
 2: To convert time from 24-hour notation to 12-hour notation.
@@ -20,10 +20,10 @@ Enter--
 
 .
 Error : AssertionError - Unable to find The\s+time\s+is\W*\s+08\W30\W20 in the program's output.
-Timestamp: 2026-04-13 21:38:35.461066
+Timestamp: 2026-04-13 21:40:24.382254
 
 Status: PASSED!
 Check: 2
 Test: Successful Output II
 Reason: None
-Timestamp: 2026-04-13 21:38:35.464885
+Timestamp: 2026-04-13 21:40:24.388093

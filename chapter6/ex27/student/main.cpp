@@ -152,7 +152,7 @@ void TwentyFourHourToTwelveHour(int hTwentyFour, int mTwentyFour , int sTwentyFo
 }
 void print(int hr, int min, int sec, string str, bool isTwelveHr)
 {
-    cout << "The time is:   ";
+    cout << "The time is: ";
 
     if (hr < 10)
         cout << "0";
